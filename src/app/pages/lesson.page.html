@@ -1,0 +1,19 @@
+<div *ngIf="vm$ | async as vm">
+  <p class="muted">
+    <a routerLink="/courses" i18n="@@backToCourses">← Retour aux cours</a>
+  </p>
+
+  <div *ngIf="!vm.course || !vm.lesson" class="card">
+    <h2 i18n="@@lessonNotFoundTitle">Leçon introuvable</h2>
+    <p i18n="@@lessonNotFoundText">Vérifie l’URL ou l’index de contenu.</p>
+  </div>
+
+  <article *ngIf="vm.course && vm.lesson" class="card">
+    <h1>{{ vm.lesson.title }}</h1>
+    <p class="muted">{{ vm.lesson.summary }}</p>
+  </article>
+
+  <article *ngIf="vm.course && vm.lesson" class="card">
+    <div [innerHTML]="vm.html"></div>
+  </article>
+</div>

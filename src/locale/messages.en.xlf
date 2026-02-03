@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+
+      <trans-unit id="brandSub" datatype="html">
+        <source>Java · Spring · Kafka · Observability</source>
+        <target>Java · Spring · Kafka · Observability</target>
+      </trans-unit>
+
+      <trans-unit id="navHome" datatype="html">
+        <source>Accueil</source>
+        <target>Home</target>
+      </trans-unit>
+
+      <trans-unit id="navCourses" datatype="html">
+        <source>Cours</source>
+        <target>Courses</target>
+      </trans-unit>
+
+      <trans-unit id="navLanguage" datatype="html">
+        <source></source>
+        <target></target>
+      </trans-unit>
+
+      <trans-unit id="footerText" datatype="html">
+        <source>© {{ new Date().getFullYear() }} — Contenu basé sur des retours d’expérience.</source>
+        <target>© {{ new Date().getFullYear() }} — Content based on real-world experience.</target>
+      </trans-unit>
+
+      <trans-unit id="homeTitle" datatype="html">
+        <source>Cours pratiques, orientés production</source>
+        <target>Hands-on courses, production-oriented</target>
+      </trans-unit>
+
+      <trans-unit id="homeLead" datatype="html">
+        <source>
+      Objectif : transformer des retours d’expérience (Java, Spring Boot, Kafka, transactions, logging…) en leçons courtes,
+      actionnables et testables.
+    </source>
+        <target>
+      Goal: turn real-world experience (Java, Spring Boot, Kafka, transactions, logging…) into short lessons that are actionable and testable.
+    </target>
+      </trans-unit>
+
+      <trans-unit id="homeStartTitle" datatype="html">
+        <source>Commencer</source>
+        <target>Get started</target>
+      </trans-unit>
+
+      <trans-unit id="homeStartText" datatype="html">
+        <source>Va sur la page “Cours” pour parcourir les parcours et ouvrir une leçon.</source>
+        <target>Go to “Courses” to browse tracks and open a lesson.</target>
+      </trans-unit>
+
+      <trans-unit id="homeCta" datatype="html">
+        <source>Voir les cours</source>
+        <target>Browse courses</target>
+      </trans-unit>
+
+      <trans-unit id="homeSidebarTitle" datatype="html">
+        <source>Format</source>
+        <target>Format</target>
+      </trans-unit>
+
+      <trans-unit id="homeSidebar1" datatype="html">
+        <source>Leçons en Markdown versionnées dans Git</source>
+        <target>Markdown lessons versioned in Git</target>
+      </trans-unit>
+
+      <trans-unit id="homeSidebar2" datatype="html">
+        <source>Exemples concrets + anti‑patterns</source>
+        <target>Concrete examples + anti-patterns</target>
+      </trans-unit>
+
+      <trans-unit id="homeSidebar3" datatype="html">
+        <source>Contenu FR (racine) + EN (/en)</source>
+        <target>FR content (root) + EN (/en)</target>
+      </trans-unit>
+
+      <trans-unit id="coursesTitle" datatype="html">
+        <source>Cours</source>
+        <target>Courses</target>
+      </trans-unit>
+
+      <trans-unit id="coursesLead" datatype="html">
+        <source>
+  Choisis un parcours, puis une leçon. Le contenu est stocké dans <code>src/assets/content</code>.
+</source>
+        <target>
+  Pick a track, then a lesson. Content lives in <code>src/assets/content</code>.
+</target>
+      </trans-unit>
+
+      <trans-unit id="openLesson" datatype="html">
+        <source>Ouvrir</source>
+        <target>Open</target>
+      </trans-unit>
+
+      <trans-unit id="backToCourses" datatype="html">
+        <source>← Retour aux cours</source>
+        <target>← Back to courses</target>
+      </trans-unit>
+
+      <trans-unit id="lessonNotFoundTitle" datatype="html">
+        <source>Leçon introuvable</source>
+        <target>Lesson not found</target>
+      </trans-unit>
+
+      <trans-unit id="lessonNotFoundText" datatype="html">
+        <source>Vérifie l’URL ou l’index de contenu.</source>
+        <target>Check the URL or the content index.</target>
+      </trans-unit>
+
+      <trans-unit id="notFoundTitle" datatype="html">
+        <source>Page introuvable</source>
+        <target>Page not found</target>
+      </trans-unit>
+
+      <trans-unit id="notFoundText" datatype="html">
+        <source>La page demandée n’existe pas (ou plus).</source>
+        <target>The requested page does not exist (anymore).</target>
+      </trans-unit>
+
+      <trans-unit id="notFoundCta" datatype="html">
+        <source>Retour à l’accueil</source>
+        <target>Back to home</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

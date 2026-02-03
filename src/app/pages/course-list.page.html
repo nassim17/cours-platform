@@ -1,0 +1,18 @@
+<h1 i18n="@@coursesTitle">Cours</h1>
+
+<p class="muted" i18n="@@coursesLead">
+  Choisis un parcours, puis une leçon. Le contenu est stocké dans <code>src/assets/content</code>.
+</p>
+
+<div *ngIf="index$ | async as idx">
+  <div class="card" *ngFor="let c of idx.courses">
+    <h2>{{ c.title }}</h2>
+    <p class="muted">{{ c.description }}</p>
+
+    <div class="card" *ngFor="let l of c.lessons">
+      <h3>{{ l.title }}</h3>
+      <p class="muted">{{ l.summary }}</p>
+      <a class="pill" [routerLink]="['/courses', c.id, l.slug]" i18n="@@openLesson">Ouvrir</a>
+    </div>
+  </div>
+</div>

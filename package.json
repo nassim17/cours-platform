@@ -1,0 +1,35 @@
+{
+  "name": "cours-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production --localize --output-path dist/cloudflare",
+    "build:dev": "ng build --localize --output-path dist/dev",
+    "extract-i18n": "ng extract-i18n --output-path src/locale",
+    "test": "ng test --watch=false",
+    "test:watch": "ng test"
+  },
+  "dependencies": {
+    "@angular/animations": "^21.1.0",
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@angular/forms": "^21.1.0",
+    "@angular/localize": "^21.1.2",
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/platform-browser-dynamic": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "marked": "^12.0.2",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.7.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^21.1.0",
+    "@angular/cli": "^21.1.2",
+    "@angular/compiler-cli": "^21.1.0",
+    "typescript": ">=5.9.0 <6.0.0"
+  }
+}

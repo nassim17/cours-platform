@@ -1,0 +1,42 @@
+{
+  "courses": [
+    {
+      "id": "spring-boot",
+      "title": "Spring Boot in Production",
+      "description": "Configuration, errors, transactions, and practical patterns to ship safely.",
+      "lessons": [
+        {
+          "slug": "transactions-intro",
+          "title": "Transactions: the basics that prevent 80% of bugs",
+          "summary": "Propagation, isolation, and common traps (lazy loading, retries, idempotency).",
+          "file": "content/en/spring-boot/transactions-intro.md"
+        },
+        {
+          "slug": "logging-correlation-id",
+          "title": "Logging: correlation-id and structured logs",
+          "summary": "Make incidents debuggable: JSON logs, MDC, traceId, and good defaults.",
+          "file": "content/en/spring-boot/logging-correlation-id.md"
+        }
+      ]
+    },
+    {
+      "id": "kafka",
+      "title": "Kafka Hands-on",
+      "description": "Consumption models, retries/DLQ, ordering, and dedup strategies.",
+      "lessons": [
+        {
+          "slug": "consumer-groups",
+          "title": "Consumer groups & partitions: the mental model",
+          "summary": "How scaling works, what is guaranteed (ordering), and where it breaks.",
+          "file": "content/en/kafka/consumer-groups.md"
+        },
+        {
+          "slug": "outbox-pattern",
+          "title": "Transactional Outbox: connect DB + Kafka without inconsistencies",
+          "summary": "When/why, minimal schema, polling vs CDC, and operational pitfalls.",
+          "file": "content/en/kafka/outbox-pattern.md"
+        }
+      ]
+    }
+  ]
+}
