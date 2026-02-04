@@ -6,7 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --localize --output-path dist/cloudflare",
+    "typecheck:worker": "tsc -p tsconfig.worker.json",
+    "build": "ng build --configuration production --localize --output-path dist/cloudflare && npm run typecheck:worker",
     "build:dev": "ng build --localize --output-path dist/dev",
     "extract-i18n": "ng extract-i18n --output-path src/locale",
     "test": "ng test --watch=false",
